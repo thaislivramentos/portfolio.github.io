@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Thais Livramento – Social Media, Conteúdo e SEO</title>
+<meta name="description" content="Portfólio de Thais Livramento Silva: social media, estratégia de conteúdo, SEO, copywriting, vídeo e design.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&display=swap">
+<style>
+:root{--bg:#EFEEEA;--surface:#E5E4DE;--ink:#1F2124;--muted:#5E6064;--line:#C9C8C1;--lime:#FA8998;--on-lime:#1F2124;--r:28px;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17181A;--surface:#222427;--ink:#EDECE6;--muted:#A0A29E;--line:#383A3E}}
+:root[data-theme="dark"]{--bg:#17181A;--surface:#222427;--ink:#EDECE6;--muted:#A0A29E;--line:#383A3E}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Bricolage Grotesque",system-ui,sans-serif;overflow-x:hidden}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--lime);outline-offset:3px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 clamp(20px,4vw,48px)}
+section{padding:clamp(72px,11vw,150px) 0}
+h1,h2,h3{font-weight:800;line-height:1.02;letter-spacing:-.035em;margin:0}
+h1{font-size:clamp(3rem,10.5vw,9.5rem)}
+h2{font-size:clamp(2.2rem,6vw,5rem);margin-bottom:clamp(32px,5vw,64px)}
+h3{font-size:1.5rem;letter-spacing:-.02em}
+.serif{font-family:"Newsreader",Georgia,serif;font-style:italic;font-weight:400;letter-spacing:-.01em}
+p{margin:0 0 1em;max-width:62ch}
+.muted{color:var(--muted)}
+/* nav */
+header{position:fixed;top:0;left:0;right:0;z-index:20;padding-top:env(safe-area-inset-top,0px);background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{font-weight:800;font-size:1.25rem;letter-spacing:-.03em;text-decoration:none;display:flex;align-items:center;gap:10px}
+.logo i{width:14px;height:14px;border-radius:50%;background:var(--lime);display:block}
+nav ul{display:flex;gap:6px;list-style:none;margin:0;padding:0}
+nav ul a{display:block;padding:8px 16px;border-radius:99px;text-decoration:none;font-size:.95rem;transition:background .25s}
+nav ul a:hover{background:var(--lime);color:var(--on-lime)}
+.burger{display:none;background:none;border:1px solid var(--line);color:var(--ink);border-radius:99px;padding:8px 16px;font:inherit;cursor:pointer}
+@media(max-width:820px){.burger{display:block}nav ul{position:absolute;top:100%;left:0;right:0;flex-direction:column;background:var(--bg);padding:12px clamp(20px,4vw,48px) 20px;border-bottom:1px solid var(--line);display:none}nav ul.open{display:flex}nav ul a{font-size:1.2rem;padding:12px 0}}
+/* hero */
+.hero{padding-top:clamp(130px,16vw,200px);position:relative}
+.hero h1 span{display:block}
+.hero h1 .i1{margin-left:clamp(0px,8vw,120px)}
+.hero-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:clamp(24px,5vw,80px);margin-top:clamp(40px,6vw,90px);align-items:end}
+.disc{position:absolute;right:clamp(8px,6vw,90px);top:clamp(100px,12vw,170px);width:clamp(110px,16vw,200px);aspect-ratio:1;border-radius:50%;background:var(--lime);color:var(--on-lime);display:grid;place-items:center;text-align:center;font-weight:600;font-size:clamp(.8rem,1.3vw,1rem);line-height:1.25;padding:18px;transition:transform .2s ease-out;will-change:transform;animation:pop .9s cubic-bezier(.2,1.4,.4,1) both .3s}
+@keyframes pop{from{transform:scale(0) rotate(-40deg)}}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:var(--bg);padding:16px 28px;border-radius:99px;text-decoration:none;font-weight:600;transition:background .25s,color .25s,transform .25s;border:0;font-size:1rem}
+.btn:hover{background:var(--lime);color:var(--on-lime);transform:translateY(-3px)}
+.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
+.btn.ghost:hover{background:var(--lime);border-color:var(--lime)}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+@media(max-width:820px){.hero-grid{grid-template-columns:1fr}.disc{position:static;margin:28px 0 0}}
+/* marquee */
+.marquee{border-block:1px solid var(--line);overflow:hidden;padding:22px 0;background:var(--ink);color:var(--bg)}
+.marquee div{display:flex;gap:48px;width:max-content;animation:slide 32s linear infinite;font-size:clamp(1.4rem,3vw,2.4rem);font-weight:600;letter-spacing:-.02em}
+.marquee b{color:var(--lime);font-weight:400}
+.marquee:hover div{animation-play-state:paused}
+@keyframes slide{to{transform:translateX(-50%)}}
+/* placeholder images */
+.ph{border-radius:var(--r);position:relative;overflow:hidden;display:flex;align-items:flex-end;padding:20px;min-height:220px;color:var(--ink)}
+.ph::after{content:"Substitua pela imagem do projeto";position:absolute;left:20px;bottom:18px;font-size:.8rem;opacity:.65}
+.ph svg{position:absolute;inset:0;width:100%;height:100%;transition:transform .7s ease}
+.proj:hover .ph svg{transform:scale(1.08) rotate(1deg)}
+.g1{background:var(--lime)}.g2{background:var(--surface)}.g3{background:#2B2E32;color:#fff}
+/* projects asymmetric */
+.pgrid{display:grid;grid-template-columns:repeat(12,1fr);gap:clamp(18px,3vw,40px)}
+.proj{display:block;text-decoration:none}
+.proj .ph{min-height:clamp(240px,34vw,460px)}
+.proj h3{margin:18px 0 4px}
+.proj p{margin:0}
+.p1{grid-column:1/8}.p2{grid-column:9/13;margin-top:clamp(0px,8vw,120px)}.p3{grid-column:2/7}.p4{grid-column:8/13}
+.p2 .ph,.p3 .ph{min-height:clamp(240px,28vw,380px)}
+@media(max-width:820px){.p1,.p2,.p3,.p4{grid-column:1/-1;margin-top:0}}
+/* about */
+.about{display:grid;grid-template-columns:5fr 7fr;gap:clamp(28px,6vw,100px)}
+.portrait{aspect-ratio:4/5;border-radius:var(--r) var(--r) 200px var(--r);background:var(--surface);position:relative;overflow:hidden;display:grid;place-items:center;color:var(--muted);font-size:.9rem;text-align:center;padding:20px}
+.portrait::before{content:"";position:absolute;width:60%;aspect-ratio:1;border-radius:50%;background:var(--lime);right:-12%;top:-8%}
+.portrait span{position:relative}
+.skills{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0 40px;padding:0;list-style:none}
+.skills li{border:1.5px solid var(--ink);border-radius:99px;padding:6px 18px;font-size:.95rem;transition:.25s}
+.skills li:hover{background:var(--lime);color:var(--on-lime);border-color:var(--lime)}
+.tl{border-left:2px solid var(--line);margin:0;padding:0 0 0 28px;list-style:none}
+.tl li{position:relative;padding-bottom:28px}
+.tl li::before{content:"";position:absolute;left:-37px;top:8px;width:16px;height:16px;border-radius:50%;background:var(--lime);border:3px solid var(--bg)}
+.tl strong{font-size:1.15rem}
+@media(max-width:820px){.about{grid-template-columns:1fr}.portrait{max-width:420px}}
+/* case studies */
+.cs{background:var(--surface);border-radius:var(--r);padding:clamp(22px,4vw,56px);margin-bottom:clamp(20px,3vw,36px);display:grid;grid-template-columns:5fr 7fr;gap:clamp(24px,4vw,64px)}
+.cs:nth-of-type(even){grid-template-columns:7fr 5fr}
+.cs:nth-of-type(even) .cs-side{order:2}
+.cs h3{font-size:clamp(1.7rem,3vw,2.6rem);margin-bottom:14px}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:24px}
+.metric{background:var(--lime);color:var(--on-lime);border-radius:20px;padding:16px}
+.metric b{display:block;font-size:clamp(1.6rem,3vw,2.4rem);letter-spacing:-.03em;line-height:1}
+.metric small{font-size:.8rem;line-height:1.25;display:block;margin-top:6px}
+.steps{display:grid;gap:0}
+.step{padding:18px 0;border-top:1px solid var(--line)}
+.step h4{margin:0 0 4px;font-size:1.05rem}
+.step p{margin:0;color:var(--muted)}
+@media(max-width:900px){.cs,.cs:nth-of-type(even){grid-template-columns:1fr}.cs:nth-of-type(even) .cs-side{order:0}}
+@media(max-width:480px){.metrics{grid-template-columns:1fr}}
+/* services */
+.svc{border-top:1.5px solid var(--ink)}
+.svc details{border-bottom:1.5px solid var(--ink)}
+.svc summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:26px 0;font-size:clamp(1.6rem,4vw,3rem);font-weight:800;letter-spacing:-.03em;transition:padding .3s}
+.svc summary::-webkit-details-marker{display:none}
+.svc summary:hover{padding-left:16px}
+.svc summary::after{content:"+";flex:none;width:48px;height:48px;border-radius:50%;background:var(--lime);color:var(--on-lime);display:grid;place-items:center;font-size:1.6rem;font-weight:400;transition:transform .3s}
+.svc details[open] summary::after{transform:rotate(45deg)}
+.svc .body{padding:0 0 28px;display:grid;grid-template-columns:1fr 1fr;gap:12px 40px;color:var(--muted)}
+.svc .body p{margin:0}
+@media(max-width:700px){.svc .body{grid-template-columns:1fr}}
+/* contact */
+.contact{background:var(--ink);color:#EDECE6;border-radius:var(--r) var(--r) 0 0;margin-top:20px}
+.contact h2{font-size:clamp(2.8rem,10vw,9rem);margin-bottom:40px}
+.contact a.big{display:block;font-size:clamp(1.3rem,4vw,3rem);font-weight:600;letter-spacing:-.03em;text-decoration:none;padding:14px 0;border-bottom:1px solid #3d4045;transition:color .25s,padding .3s}
+.contact a.big:hover{color:var(--lime);padding-left:14px}
+.contact .btn{background:var(--lime);color:#1F2124}
+.contact .btn:hover{background:#fff}
+footer{background:var(--ink);color:#A0A29E;padding:0 0 32px;font-size:.9rem}
+/* reveal */
+.rv{opacity:0;transform:translateY(24px);transition:opacity .8s,transform .8s}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav aria-label="Principal">
+<a class="logo" href="#home"><i></i>Thais Livramento</a>
+<button class="burger" aria-expanded="false" aria-controls="menu">Menu</button>
+<ul id="menu"><li><a href="#home">Home</a></li><li><a href="#sobre">Sobre</a></li><li><a href="#cases">Cases</a></li><li><a href="#servicos">Competências</a></li><li><a href="#contato">Contato</a></li></ul>
+</nav></div></header>
+
+<main>
+<section class="hero" id="home"><div class="wrap">
+<div class="disc" id="disc">Aberta a novas oportunidades</div>
+<h1><span>Comunicação</span><span class="i1">que cria</span><span>conexões.</span></h1>
+<div class="hero-grid">
+<div>
+<p style="font-size:1.25rem">Sou Thais Livramento, profissional de social media e conteúdo com mais de 6 anos de experiência. Planejo calendários editoriais, escrevo e produzo vídeos e peças para redes sociais e blogs. Já levei um blog em português de 200 mil a 1 milhão de visitas orgânicas por mês.</p>
+<div class="cta"><a class="btn" href="#cases">Ver cases</a><a class="btn ghost" href="#contato">Entrar em contato</a></div>
+</div>
+<div class="muted">
+<p><strong style="color:var(--ink)">Especialidades</strong><br>Social media, estratégia de conteúdo, SEO e blog, copywriting, edição de vídeo e design gráfico.</p>
+</div>
+</div>
+</div></section>
+
+<div class="marquee" aria-hidden="true"><div>
+<span>Social media</span><b>●</b><span>Estratégia de conteúdo</span><b>●</b><span>SEO</span><b>●</b><span>Copywriting</span><b>●</b><span>Vídeo e design</span><b>●</b>
+<span>Social media</span><b>●</b><span>Estratégia de conteúdo</span><b>●</b><span>SEO</span><b>●</b><span>Copywriting</span><b>●</b><span>Vídeo e design</span><b>●</b>
+</div></div>
+
+<section id="projetos"><div class="wrap">
+<h2 class="rv">Projetos em destaque</h2>
+<div class="pgrid">
+<a class="proj p1 rv" href="#cases"><div class="ph g1"><svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice"><circle cx="300" cy="90" r="120" fill="#1F2124" opacity=".9"/><circle cx="90" cy="230" r="70" fill="none" stroke="#1F2124" stroke-width="3"/></svg></div><h3>Melhor Saúde: +380% de crescimento orgânico</h3><p class="muted">SEO e estratégia de conteúdo</p></a>
+<a class="proj p2 rv" href="#cases"><div class="ph g3"><svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice"><rect x="60" y="60" width="180" height="180" rx="90" fill="#FA8998"/><rect x="200" y="120" width="140" height="140" fill="none" stroke="#fff" stroke-width="2"/></svg></div><h3>Marineiva Psicóloga: +12% de engajamento</h3><p class="muted">Social media e design</p></a>
+<a class="proj p3 rv" href="#sobre"><div class="ph g2"><svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice"><path d="M0 240 Q100 120 200 200 T400 100 V300 H0Z" fill="#FA8998"/><path d="M0 270 Q120 190 220 250 T400 190" fill="none" stroke="#1F2124" stroke-width="3"/></svg></div><h3>Blog da Jivochat: de 200 mil a 1 milhão de visitas por mês</h3><p class="muted">SEO, link building e coordenação</p></a>
+<a class="proj p4 rv" href="#sobre"><div class="ph g1"><svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice"><g fill="#1F2124"><rect x="40" y="170" width="50" height="100"/><rect x="110" y="120" width="50" height="150"/><rect x="180" y="70" width="50" height="200"/><rect x="250" y="30" width="50" height="240"/></g></svg></div><h3>Kwai do zero: 380 seguidores em três semanas</h3><p class="muted">Social media e vídeo</p></a>
+</div></div></section>
+
+<section id="sobre"><div class="wrap about">
+<div class="rv"><div class="portrait"><span>Sua foto aqui<br>(proporção 4:5)</span></div></div>
+<div class="rv">
+<h2>Sobre mim</h2>
+<p style="font-size:1.2rem">Tenho mais de 6 anos de experiência em redes sociais e conteúdo, com formação em Publicidade e Propaganda. Planejo calendários editoriais, escrevo e produzo vídeos e peças gráficas para Instagram, Facebook, TikTok, Kwai e Twitter/X. Em blogs, uno conteúdo e SEO para gerar crescimento orgânico.</p>
+<ul class="skills"><li>Gestão de redes sociais</li><li>Planejamento editorial</li><li>Copywriting</li><li>SEO on-page</li><li>Link building</li><li>WordPress</li><li>E-mail marketing</li><li>Edição de vídeo (CapCut, InShot)</li><li>Canva, Photoshop e Illustrator</li><li>Ferramentas de IA</li></ul>
+<h3 style="margin-bottom:24px">Experiência</h3>
+<ul class="tl">
+<li><strong>Jivochat</strong><br><span class="muted">05/2021 a 11/2026. Coordenadora de Marketing dos blogs em português, espanhol e inglês (2025–2026), com e-mail marketing e campanhas. Outreach e link building (2022–2025). Copywriter e redatora do blog em português (2021–2022).</span></li>
+<li><strong>Influir Comunicação Digital</strong><br><span class="muted">06/2020 até hoje. Social media e SEO como freelancer: conteúdo, calendários editoriais, peças gráficas e roteiros de vídeo.</span></li>
+<li><strong>Formação</strong><br><span class="muted">Pós-graduação em Marketing e Redes Sociais (Minas Faculdade). Letras – Inglês na UFRGS (previsão: 2027). Publicidade e Propaganda (IERGS/UNIASSELVI).</span></li>
+<li><strong>Idiomas</strong><br><span class="muted">Português nativo, inglês intermediário e espanhol básico.</span></li>
+</ul>
+</div></div></section>
+
+<section id="cases"><div class="wrap">
+<h2 class="rv">Case studies</h2>
+
+<article class="cs rv"><div class="cs-side"><div class="ph g1" style="min-height:260px"><svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice"><circle cx="300" cy="90" r="120" fill="#1F2124" opacity=".9"/></svg></div>
+<h3 style="margin-top:24px">Melhor Saúde: crescimento orgânico por meio de estratégia de conteúdo</h3><p class="muted">Portal de conteúdo sobre saúde · Janeiro a dezembro de 2025</p>
+<div class="metrics"><div class="metric"><b data-n="380" data-s="%" data-p="+">0</b><small>de crescimento orgânico</small></div><div class="metric"><b data-n="30" data-s=" mil" data-p="">0</b><small>visitas mensais, partindo de zero em 2 anos</small></div><div class="metric"><b data-n="12" data-s=" meses" data-p="">0</b><small>de estratégia contínua (jan–dez 2025)</small></div></div></div>
+<div class="steps">
+<div class="step"><h4>Desafio</h4><p>Ampliar a visibilidade orgânica de um portal de conteúdo sobre saúde em um ambiente digital competitivo, alcançando novos públicos com informações relevantes e alinhadas às buscas dos usuários.</p></div><div class="step"><h4>Estratégia</h4><p>Estratégia de conteúdo orientada por SEO, com foco na intenção de busca, na identificação de oportunidades de palavras-chave e na construção de uma presença orgânica mais consistente.</p></div><div class="step"><h4>Execução</h4><p>Pesquisa de palavras-chave e intenção de busca, planejamento editorial, produção e otimização de conteúdos, melhorias de SEO on-page e identificação de oportunidades para ampliar relevância e alcance.</p></div><div class="step"><h4>Resultado</h4><p>+380% de crescimento orgânico entre janeiro e dezembro de 2025. Uma estratégia orientada por dados que fortaleceu a presença digital do Melhor Saúde e ampliou seu alcance no segmento de conteúdo sobre saúde.</p></div>
+</div></article>
+
+<article class="cs rv"><div class="cs-side"><div class="ph g3" style="min-height:260px"><svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice"><rect x="60" y="60" width="180" height="180" rx="90" fill="#FA8998"/></svg></div>
+<h3 style="margin-top:24px">Marineiva Psicóloga: conteúdo que aproxima marcas e pessoas</h3><p class="muted">Marca pessoal de psicóloga · Redes sociais</p>
+<div class="metrics"><div class="metric"><b data-n="12" data-s="%" data-p="+">0</b><small>de engajamento nas redes sociais</small></div></div></div>
+<div class="steps">
+<div class="step"><h4>Desafio</h4><p>Fortalecer a presença digital da profissional nas redes sociais, com uma comunicação capaz de aproximar a marca pessoal do público e tornar os conteúdos mais relevantes e envolventes.</p></div><div class="step"><h4>Estratégia</h4><p>Construir uma linha de comunicação que combinasse identificação, acolhimento e consistência, transformando temas da psicologia em conteúdos acessíveis e interessantes.</p></div><div class="step"><h4>Execução</h4><p>Planejamento e desenvolvimento de conteúdos para redes sociais, criação de peças gráficas e definição de abordagens visuais e textuais alinhadas à identidade da profissional e aos interesses do público.</p></div><div class="step"><h4>Resultado</h4><p>+12% de engajamento nas redes sociais. Uma comunicação mais próxima e estratégica, fortalecendo a conexão entre a profissional e sua audiência.</p></div>
+</div></article>
+</div></section>
+
+<section id="servicos"><div class="wrap">
+<h2 class="rv">Competências</h2>
+<div class="svc rv">
+<details open><summary>SEO e blog</summary><div class="body"><p>Pesquisa de palavras-chave e intenção de busca.</p><p>Otimização on-page em WordPress.</p><p>Outreach e link building.</p><p>Acompanhamento de visitas orgânicas.</p></div></details>
+<details><summary>Estratégia de conteúdo</summary><div class="body"><p>Planejamento e calendário editorial.</p><p>Conteúdo alinhado às buscas e ao público.</p><p>Coordenação de blogs em vários idiomas.</p><p>E-mail marketing e campanhas.</p></div></details>
+<details><summary>Social media</summary><div class="body"><p>Instagram, Facebook, TikTok, Kwai e X.</p><p>Adaptação do conteúdo para cada plataforma.</p><p>Criação de contas do zero.</p><p>Acompanhamento de seguidores e visualizações.</p></div></details>
+<details><summary>Copywriting</summary><div class="body"><p>Textos para blogs e legendas.</p><p>E-mails e campanhas.</p><p>Roteiros para vídeos.</p><p>Tom de voz alinhado à marca.</p></div></details>
+<details><summary>Vídeo e design</summary><div class="body"><p>Edição de vídeo com CapCut e InShot.</p><p>Peças gráficas no Canva.</p><p>Criação no Photoshop e Illustrator.</p><p>Identidade visual para redes sociais.</p></div></details>
+</div></div></section>
+</main>
+
+<section class="contact" id="contato"><div class="wrap">
+<h2 class="rv">Vamos conversar?</h2>
+<a class="big" href="mailto:thais.livramentos@gmail.com">thais.livramentos@gmail.com</a>
+<a class="big" href="https://www.linkedin.com/in/thaislivramento" target="_blank" rel="noopener">linkedin.com/in/thaislivramento</a>
+<a class="big" href="https://www.behance.net/thaislivramento" target="_blank" rel="noopener">behance.net/thaislivramento</a>
+<a class="big" href="https://wa.me/5551986321013" target="_blank" rel="noopener">(51) 98632-1013</a>
+<p style="margin-top:36px;color:#A0A29E">Tem uma oportunidade em que posso contribuir? Será um prazer conversar sobre a vaga e sobre meu trabalho.</p>
+<a class="btn" href="mailto:thais.livramentos@gmail.com">Enviar e-mail</a>
+</div></section>
+<footer><div class="wrap" style="padding-top:40px">© <span id="y">2026</span> Thais Livramento. Todos os direitos reservados.</div></footer>
+
+<script>
+(function(){
+var b=document.querySelector('.burger'),m=document.getElementById('menu');
+b.addEventListener('click',function(){var o=m.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+m.addEventListener('click',function(e){if(e.target.tagName==='A'){m.classList.remove('open');b.setAttribute('aria-expanded','false')}});
+document.getElementById('y').textContent=new Date().getFullYear();
+var rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+function count(el){var n=+el.dataset.n,s=el.dataset.s,t=0,d=rm?1:60;(function f(){t++;var v=Math.round(n*Math.min(1,t/d));el.textContent=(el.dataset.p||'')+(n>=1000?v.toLocaleString('pt-BR'):v)+s;if(t<d)requestAnimationFrame(f)})()}
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');e.target.querySelectorAll('[data-n]').forEach(count);io.unobserve(e.target)}})},{threshold:.15});
+document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+var disc=document.getElementById('disc');
+if(!rm&&matchMedia('(hover:hover)').matches){addEventListener('mousemove',function(e){var x=(e.clientX/innerWidth-.5)*40,y=(e.clientY/innerHeight-.5)*40;disc.style.transform='translate('+x+'px,'+y+'px)'})}
+})();
+</script>
+</body>
+</html>
